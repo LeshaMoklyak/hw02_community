@@ -1,5 +1,5 @@
 from django.shortcuts import render, get_object_or_404
-from .models import Post, Group, User
+from .models import Post, Group
 from yatube.settings import POST_PER_PAGE
 
 
