@@ -1,6 +1,6 @@
 {% extends 'base.html' %}
 {% load static %}
-{% block title %}{{ title }}{% endblock %}
+{% block title %}Последние обновления на сайте{% endblock %}
       {% block content %}
       
         <h1>Последние обновления на сайте</h1>   
@@ -13,7 +13,8 @@
             <li>
               Дата публикации: {{ post.pub_date|date:"d E Y" }}
             </li>
-          </ul>      
+          </ul> 
+        </article>     
           <p>
             {{ post.text }}
           </p>
